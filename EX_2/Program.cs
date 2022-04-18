@@ -4,26 +4,26 @@ int a = 7;
 int b = 5;
 int c = 7;
 int max = a;
-if (a<b)
+if (a < b)
 {
-    if (c<b)
+    if (c < b)
     {
         max = b;
     }
-    else 
+    else
     {
         max = c;
     }
 }
-else 
+else
 {
-    if (a<c)
+    if (a < c)
     {
-        max = c; 
+        max = c;
     }
-    else 
+    else
     {
-        max=a;
+        max = a;
     }
 }
 Console.Write("Max = ");
